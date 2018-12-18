@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bonus_caculator</title>
+</head>
+<body>
+    <script>
+        var doanhsobanhang=parseInt(prompt('Enter your sales:'));
+        if (doanhsobanhang<1000000)
+            alert('Your sales is '+doanhsobanhang+'. Your sales commission: '+doanhsobanhang*0.05 );
+        else if (doanhsobanhang >=1000000 && doanhsobanhang <= 100000000)
+            alert('Your sales is '+doanhsobanhang+'. Your sales commission: '+doanhsobanhang*0.01 );
+        else
+            alert('Your sales is '+doanhsobanhang+'. Your sales commission: '+doanhsobanhang*0.12 );
+    </script>
+</body>
+</html>
